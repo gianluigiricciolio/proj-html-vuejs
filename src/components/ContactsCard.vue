@@ -16,7 +16,7 @@ export default {
   <transition name="slide-fade">
     <div class="info-card" v-if="showCard">
       <div class="container d-flex justify-content-between gap-4">
-        <div class="col d-flex gap-2 p-5 shadows">
+        <div class="col d-flex gap-2 p-5 bg-white shadows">
           <div class="align-self-center">
             <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-location-dot" />
           </div>
@@ -25,7 +25,7 @@ export default {
             <div>123 Ave, Lorem City, site Country, The World</div>
           </div>
         </div>
-        <div class="col d-flex gap-2 p-5 shadows">
+        <div class="col d-flex gap-2 p-5 bg-white shadows">
           <div class="align-self-center">
             <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-phone-volume" />
           </div>
@@ -34,7 +34,7 @@ export default {
             <div>(001) 123456789 - 234567891 info@phloxbusiness.com</div>
           </div>
         </div>
-        <div class="col d-flex gap-2 p-5 shadows">
+        <div class="col d-flex gap-2 p-5 bg-white shadows">
           <div class="align-self-center">
             <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-stopwatch" />
           </div>

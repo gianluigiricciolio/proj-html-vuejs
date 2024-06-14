@@ -1,20 +1,21 @@
 <script>
 
-    import Separator from './Separator.vue';
+import HomeProjectsExamples from './HomeProjectsExamples.vue';
+import Separator from './Separator.vue';
 
-    export default {
-        name: "Home Past Projects",
+export default {
+    name: "Home Past Projects",
 
-        components: {
-            Separator,
-        },
+    components: {
+        Separator,
+        HomeProjectsExamples
+    },
 
-    };
+};
 
 </script>
 
 <template>
-    
     <div class="container-fluid my-5">
 
         <div class="row">
@@ -38,4 +39,5 @@
         </div>
 
     </div>
+    <HomeProjectsExamples></HomeProjectsExamples>
 </template>

@@ -29,7 +29,8 @@ export default {
         </div>
         <div class="info d-flex flex-column py-5 gap-3">
             <div v-for="feat in card.feats">
-                {{ feat }}
+                <font-awesome-icon class="me-1" icon="fa-solid fa-check" />
+                <span>{{ feat }}</span>
             </div>
         </div>
     </div>

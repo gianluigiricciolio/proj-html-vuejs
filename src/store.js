@@ -137,4 +137,46 @@ export const store = reactive({
             imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/img3-1644x1644.jpg',
         }
     ],
+    projects: [
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/ina-soulis-227104-unsplash-1024x1024.jpg',
+            name: 'The Basket of Flowers',
+            paragraph: ['BRANDING', 'MARKETING'],
+        },
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/sunisa-misa-531163-unsplash-1024x1024.jpg',
+            name: 'A Famous Ferris Wheel',
+            paragraph: ['MARKETING'],
+        },
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/355H-1024x1024.jpg',
+            name: 'Complementary Colours',
+            paragraph: ['BRANDING', 'MARKETING'],
+        },
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/photo-1448932252197-d19750584e56-1024x1024.jpg',
+            name: 'Business Prestige',
+            paragraph: ['BRANDING'],
+        },
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/business-competition-PB366D8-1024x1024.jpg',
+            name: 'Colourful Origami Boats',
+            paragraph: ['BRANDING', 'MARKETING'],
+        },
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cozy-sofa-in-living-room-PQR5AB9-1024x1024.jpg',
+            name: 'Modern Couch',
+            paragraph: ['MARKETING'],
+        },
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/aa9a4539-PQGJ7HU-1024x1024.jpg',
+            name: 'Hot Air Balloons',
+            paragraph: ['BRANDING', 'MARKETING'],
+        },
+        {
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cody-davis-253928-unsplash-1024x1024.jpg',
+            name: 'Make Difference',
+            paragraph: ['BRANDING'],
+        },
+    ],
 });

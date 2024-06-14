@@ -18,12 +18,12 @@ export default {
                     thought for the techniques that you can use. Freshly scrambled eggs with applewood smoked bacon - are
                     amazing!
                 </div>
-                <div class="client-section d-flex flex-column align-items-center">
-                    <div class="">
+                <div class="client-section d-flex flex-column align-items-center gap-4">
+                    <div class="text-center">
                         <img class="cirlce"
                             src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/businesswoman-analysing-document-P8WSNMC-150x150.jpg">
                     </div>
-                    <div class="client-info d-flex flex-column align-items-center gap-2">
+                    <div class="client-info d-flex flex-column align-items-center gap-1">
                         <div class="h3 secondary-color">LISSA DURBIN</div>
                         <div class="text-center text-white">Client</div>
                     </div>
@@ -48,8 +48,10 @@ export default {
 }
 
 .cirlce {
+    border: 3px solid white;
     border-radius: 50%;
     overflow: hidden;
+    width: 70%;
 
 }
 
