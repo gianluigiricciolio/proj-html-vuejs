@@ -179,4 +179,21 @@ export const store = reactive({
             paragraph: ['BRANDING'],
         },
     ],
+    contactCard: [
+        {
+            icon: "fa-solid fa-location-dot",
+            title: "ADDRESS:",
+            info: "123 Ave, Lorem City, site Country, The World",
+        },
+        {
+            icon: "fa-solid fa-phone-volume",
+            title: "PHONE:",
+            info: "(001) 123456789 - 234567891 info@phloxbusiness.com",
+        },
+        {
+            icon: "fa-solid fa-stopwatch",
+            title: "WORK HOURS:",
+            info: "Monday-Friday 09.00-23.00, Sunday 09.00-16.00",
+        },
+    ],
 });

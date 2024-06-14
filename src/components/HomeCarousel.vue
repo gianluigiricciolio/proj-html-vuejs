@@ -114,6 +114,10 @@ export default {
 <style scoped lang="scss">
 @use "../assets/scss/partials/_variables.scss" as *;
 
+.bg-color-section {
+    overflow: hidden;
+}
+
 .circle {
     display: flex;
     justify-content: center;
