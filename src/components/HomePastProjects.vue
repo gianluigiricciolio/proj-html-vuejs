@@ -22,9 +22,9 @@ export default {
             <div class="col-6">
                 <Separator />
                 <h2 class="my-5 h2">
-                    Our recentweb designs &
+                    Our recent <span class="secondary-color">web designs</span> &
                     some examples of
-                    past projects
+                    past <span class="secondary-color">projects</span>
                 </h2>
                 <Separator />
             </div>

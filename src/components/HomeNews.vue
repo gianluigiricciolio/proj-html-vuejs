@@ -42,7 +42,8 @@ export default {
                 <div class="card border-0 shadows">
                     <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/simple-home-office-with-tree-PBXRXYB-large-1024x768.jpg"
                         class="card-img-top" alt="..." />
-                    <div class="card-body position-absolute top-100 start-50 translate-middle w-75 rounded shadows p-4">
+                    <div
+                        class="card-body position-absolute top-100 start-50 translate-middle bg-white w-75 rounded shadows p-4">
                         <p class="card-text">May 24, 2018 - by Alex</p>
                         <div class="fs-5 fw-bold">Develop Your Startup Idea</div>
                     </div>
@@ -52,17 +53,3 @@ export default {
         <div class="black-button mt-5">VIEW ALL POSTS</div>
     </div>
 </template>
-
-<style scoped lang="scss">
-.card-body {
-    background-color: white;
-
-    &:hover .card-body {
-        color: white;
-        background: rgb(153, 225, 94);
-        background: linear-gradient(225deg,
-                rgba(153, 225, 94, 1) 0%,
-                rgba(0, 217, 166, 1) 100%);
-    }
-}
-</style>
